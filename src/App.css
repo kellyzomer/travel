@@ -1,9 +1,15 @@
 .App {
   text-align: center;
+  background-color: #A1D4DD;
+  font-family: 'Cutive Mono';
+  font-weight: 'bold';
+  font-size: calc(3px + 2vmin);
+  color: #141414;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 15vmin;
+  margin-top: 5vh;
   pointer-events: none;
 }
 
@@ -14,18 +20,31 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #A1D4DD;
+  min-height: 8vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Cutive Mono';
+  font-weight: 'bold';
+  font-size: calc(15px + 2vmin);
+  color: #141414;
+  margin-bottom: calc(5px + 2vmin);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #141414;
+  font-size: calc(5px + 2vmin);
+}
+
+.Map-container {
+  margin-top: 50px;
+  min-height: 80vh;
+}
+
+.Map {
+  min-height: 50px
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +55,8 @@
     transform: rotate(360deg);
   }
 }
+
+/* old color palette:
+background header: #A1D4DD
+color: app header: #347180
+ */
