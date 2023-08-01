@@ -1,7 +1,7 @@
 import React from 'react';
 import { VectorMap } from 'react-jvectormap';
 import './App.css';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.4/jquery-jvectormap.css" type="text/css" media="screen"/>
 
