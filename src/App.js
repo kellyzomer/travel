@@ -1,7 +1,8 @@
-import React from 'react';
-import logo from './global.svg';
+// imported packages
 import './App.css';
+import logo from './global.svg';
 import Map from './Map.js';
+import React from 'react';
 import 'react-router-dom';
 
 function App() {

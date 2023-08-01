@@ -1,7 +1,7 @@
 import React from 'react';
 import { VectorMap } from 'react-jvectormap';
 import './App.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.4/jquery-jvectormap.css" type="text/css" media="screen"/>
 
@@ -47,17 +47,8 @@ const mapData = {
     NL: 99,
 };
 
-  // const handleClick = (e, countryCode) => {
-  //   console.log(countryCode);
-  // };
-
   const handleClick = (e, countryCode) => {
     console.log(countryCode);
-    // Replace '/country' with the path you want to navigate to for each country
-    // For example, you can use template literals to create dynamic paths based on the country code
-    // Here's an example of the path format: `/country/${countryCode}`
-    // Modify this line according to your desired route configuration
-    window.location.href = `/country/${countryCode}`;
   };
 
   const Map = () => {
