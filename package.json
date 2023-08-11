@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://travelwith.kellyzomer.github.io/",
+  "homepage": "https://kellyzomer.github.io/travel",
   "private": true,
   "dependencies": {
     "@emotion/core": "^11.0.0",
