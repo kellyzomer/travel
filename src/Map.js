@@ -45,6 +45,10 @@ const mapData = {
     SE: 1,
     NO: 1,
     NL: 99,
+    AR: 1,
+    CA: 1,
+    MA: 1,
+    CL: 1
 };
 
   const handleClick = (e, countryCode) => {
