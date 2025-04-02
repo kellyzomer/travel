@@ -48,7 +48,8 @@ const mapData = {
     AR: 1,
     CA: 1,
     MA: 1,
-    CL: 1
+    CL: 1,
+    RO: 1
 };
 
   const handleClick = (e, countryCode) => {
