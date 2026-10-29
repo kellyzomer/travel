@@ -39,8 +39,37 @@
 }
 
 .Map-container {
-  margin-top: 50px;
-  min-height: 80vh;
+  margin: 18px auto 0;
+  min-height: 65vh;
+  max-width: 1100px;
+  padding: 0 16px;
+}
+
+.map-help,
+.map-note {
+  margin: 12px auto;
+  padding: 0 16px;
+  max-width: 760px;
+  line-height: 1.5;
+}
+
+.map-note {
+  font-size: 0.8em;
+}
+
+.polarsteps-link {
+  display: inline-block;
+  margin: 10px auto 32px;
+  padding: 10px 16px;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.polarsteps-link:hover,
+.polarsteps-link:focus-visible {
+  background: rgba(255, 255, 255, 0.35);
 }
 
 .Map {

@@ -9,14 +9,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Travel with Kell</p>
+        <img src={logo} className="App-logo" alt="" />
+        <p>My travels</p>
       </header>
-      <p>Website is under construction: <br></br>
-        Click on the highlighted countries to read my travel blogposts</p>
-      <div className="Map-container"> {/* Add a container div */}
-        <Map /> {/* Render the Map component here */}
+      <div className="Map-container">
+        <Map />
       </div>
+      <a className="polarsteps-link" href="https://www.polarsteps.com/KellyZomer" target="_blank" rel="noreferrer">
+        Follow my travels on Polarsteps ↗
+      </a>
     </div>
   );
 }

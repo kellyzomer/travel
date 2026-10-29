@@ -18,6 +18,7 @@ const mapData = {
     BE: 4,
     IT: 4,
     PL: 2,
+    // Wales is included in the United Kingdom (GB) on this world map.
     GB: 3,
     SI: 1,
     AE: 1,
@@ -50,6 +51,15 @@ const mapData = {
     MA: 1,
     CL: 1,
     RO: 1,
+    CO: 1,
+    LK: 1,
+    MT: 1,
+    MV: 1,
+    PH: 1,
+    QA: 1,
+    SG: 1,
+    TW: 1,
+    VN: 1,
     LU: 1
 };
 
@@ -64,6 +74,9 @@ const mapData = {
           map={"world_mill"}
           backgroundColor='transparent'
           zoomOnScroll={true}
+          zoomButtons={true}
+          zoomMax={18}
+          zoomStep={1.4}
           containerStyle={{
             width: "100%",
             height: "520px"
